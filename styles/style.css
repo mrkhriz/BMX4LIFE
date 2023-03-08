@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(217, 217, 217);
+  font-family: 'Poppins';
+  font-size: 18px;
+}
+
+.header {
+  background-color: rgb(13, 13, 13);
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.menu {
+  float: right;
+  margin: 24px;
+}
+
+.menu a {
+  color: rgb(233, 213, 218);
+  text-decoration: none;
+  padding: 15px;
+}
+
+.heading {
+  color: rgb(233, 213, 218);
+}
+
+.banner {
+  background-image: url(../assets/bannerbmx.png);
+  background-position: 0px 70px;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+.banner h1 {
+  text-align: right;
+  font-size: 80px;
+  padding: 50px 50px;
+}
+.ridersTable {
+  width: auto;
+  margin: auto;
+}
+
+.button_riders {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(140, 140, 140);
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  font-family: 'Poppins';
+  font-size: 18px;
+}
+
+.button_riders:hover {
+  opacity: 0.3;
+}
+
+.button_riders a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px 5px 5px;
+}
+
+footer {
+  background-color: rgb(13, 13, 13);
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
